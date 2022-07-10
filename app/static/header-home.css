@@ -1,0 +1,62 @@
+.home {
+  display: none !important;
+}
+.main-hamburger>path {
+  fill: var(--white) !important;
+}
+
+/*apparently this does not work on Safari mobile*/
+#nav-toggle:checked~div>.nav-button>.main-hamburger>path {
+  fill: var(--white) !important;
+}
+
+.header-home-container {
+  height: 100vh;
+  background-blend-mode: darken;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.home-title {
+  color: var(--white);
+  font-size: var(--step-3);
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 700;
+  text-align: center;
+  text-indent: 0 !important;
+}
+
+.home-title-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-subtitle {
+  color: var(--white);
+  font-size: var(--step-0);
+  font-family: 'Source Serif Pro', serif;
+  text-align: center !important;
+  font-weight: 900;
+}
+
+.nav-background {
+  background: var(--black) !important;
+}
+
+#nav-toggle:checked~div>.nav-background {
+  background: var(--black) !important;
+}
+
+.nav-label {
+  color: var(--white) !important;
+}
+
+p {
+  font-size: var(--step-1)
+}
+

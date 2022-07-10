@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+	<head>
+		<title value="{{ title }}">{{ title }}</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="author" content="Roman Catholic Institute">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+		<link rel="stylesheet" href="https://use.typekit.net/sdb6qdz.css">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/navigation.css') }}">
+		{% if title == "Home": %}
+			<link rel="stylesheet" href="{{ url_for('static', filename='header-home.css') }}">
+			<link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+		{% else %}
+			<link rel="stylesheet" href="{{ url_for('static', filename='article.css') }}">
+		{% endif %}
+        {#TODO fix the nameing of the stylesheets so that it is more intuitive#}
+		<link rel="stylesheet" media="screen and (max-width: 319px)" href="{{ url_for('static', filename='css/xxsmall.css') }}">
+		<link rel="stylesheet" media="screen and (min-width: 320px)" href="{{ url_for('static', filename='css/xsmall.css') }}">
+		<link rel="stylesheet" media="screen and (min-width: 481px)" href="{{ url_for('static', filename='css/small.css') }}">
+		<link rel="stylesheet" media="screen and (min-width: 641px)" href="{{ url_for('static', filename='css/large.css') }}">
+		<link rel="stylesheet" media="screen and (min-width: 961px)" href="{{ url_for('static', filename='css/tablet.css') }}">
+		<link rel="stylesheet" media="screen and (min-width: 1025px)" href="{{ url_for('static', filename='css/smalldesktop.css') }}">
+        {% if section == True: %}
+		<link rel="stylesheet" media="screen and (min-width: 1025px)" href="{{ url_for('static', filename='css/section.css') }}">
+        {% endif %}
+		<link rel="stylesheet" href="{{ url_for('static', filename='footer.css') }}">
+		<link rel="apple-touch-icon" sizes="180x180" href="{{ url_for('static', filename='images/favicon_io/apple-touch-icon.png') }}">
+		<link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='images/favicon_io/favicon-32x32.png') }}">
+		<link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='images/favicon_io/favicon-16x16.png') }}">
+		<link rel="icon" type="image/png" sizes="192x192" href="{{ url_for('static', filename='images/favicon_io/android-chrome-192x192.png') }}">
+		<link rel="icon" type="image/png" sizes="512x512" href="{{ url_for('static', filename='images/favicon_io/android-chrome-512x512.png') }}">
+		<link rel="manifest" href="{{ url_for('static', filename='images/favicon_io/site.webmanifest') }}">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,200;0,300;0,600;0,700;1,400;1,600&family=Sura:wght@400;700&display=swap" rel="stylesheet">
+        <script src="{{ url_for('static', filename='js/main.js') }}" async></script>
+	</head>
+	<body>
+		{% if title == "Home": %}
+			{% include 'header/home-header.html' %}
+		{% else %}
+			{% include 'header/header.html' %}
+		{% endif %}
+		{% if title != "Home": %}
+			<div id="to-top" class="top">
+				<a href="#top">
+					<svg xmlns="http://www.w3.org/2000/svg" width="0.88em" height="1em" viewbox="0 0 384 512">
+						<path fill="#262626"
+                            d="M54.63 246.6L192 109.3l137.4 137.4C335.6 252.9 343.8 256 352 256s16.38-3.125 22.62-9.375c12.5-12.5 12.5-32.75 0-45.25l-160-160c-12.5-12.5-32.75-12.5-45.25 0l-160 160c-12.5 12.5-12.5 32.75 0 45.25S42.13 259.1 54.63 246.6zM214.6 233.4c-12.5-12.5-32.75-12.5-45.25 0l-160 160c-12.5 12.5-12.5 32.75 0 45.25s32.75 12.5 45.25 0L192 301.3l137.4 137.4C335.6 444.9 343.8 448 352 448s16.38-3.125 22.62-9.375c12.5-12.5 12.5-32.75 0-45.25L214.6 233.4z" />
+					</svg>
+				</a>
+			</div>
+		{% endif %}
+		<div class="article">
+			<main>
+				{% if title != "Home": %}
+					<div style="height: var(--space-l);"></div>
+				{% endif %}
+				{% block content %}{% endblock %}
+			</main>
+		</div>
+		<footer>
+			<div style="height: var(--space-l);"></div>
+			<div class="copyright">&copy; TheThesis {{ copy }}</div>
+		</footer>
+	</body>
+</html>

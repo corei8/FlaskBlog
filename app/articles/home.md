@@ -1,0 +1,7 @@
+# Home
+
+The Thesis of Cassiciacum is a theological explanation of the crisis of authority in the Catholic Church caused by the Second Vatican Council (1962-1965). It was conceived by the Dominican bishop Most Rev. Guérard des Lauriers, and first published in 1979 in the magazine *Cahiers de Cassiciacum*.
+			
+All Catholics who are interested in the traditional movement within the Catholic Church ought to benefit from familiarizing themselves with the Thesis of Cassiciacum. The reason is that, broadly speaking, the Thesis offers a justification for the traditional movement by reconciling the duty to submit to religious authority with the duty to preserve the traditional doctrine, worship, and law of the Church prior to the Second Vatican Council.
+
+Our objective in creating this website is to make the Thesis easily accessible to the English-speaking public. We warmly encourage all Catholics interested in the traditional movement within the Catholic Church to browse the materials found here. It is our hope that all who do so will profit from the intellectual heritage of His Excellency Bishop des Lauriers in understanding the nature of the present crisis in the Church, and in working toward a truly Catholic resolution.

@@ -1,0 +1,6 @@
+/* max-width = 319 px */
+
+.header-home-container {
+    background: rgba(0, 0, 0, 0.7) url("../images/jpg/header-mobile.jpg") !important;
+    background-attachment: fixed !important;
+}

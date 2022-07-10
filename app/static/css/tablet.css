@@ -1,0 +1,6 @@
+/* min-width = 961 px */
+/* landscape tablets, larger laptops, small desktops */
+
+main {
+    padding-inline: var(--space-s-l);
+}

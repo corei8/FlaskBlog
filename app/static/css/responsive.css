@@ -1,0 +1,57 @@
+@media screen and (max-width: 319px) {
+   .header-home-container {
+      background: rgba(0, 0, 0, 0.7) url("../images/jpg/header-mobile.jpg") !important;
+      background-attachment: fixed !important;
+   }
+}
+
+@media screen and (max-width: 320px) {
+   .header-home-container {
+      background: rgba(0, 0, 0, 0.7) url("../images/jpg/header-mobile.jpg") !important;
+      background-attachment: fixed !important;
+   }
+}
+
+@media screen and (max-width: 481px) {
+   .toc {
+      width: calc(var(--space-3xl) * 4);
+      border: solid 1px var(--black);
+      margin-inline: auto;
+   }
+
+   main {
+      padding-inline: var(--space-s-m);
+      /* letter-spacing: calc(var(--space-3xs-2xs) / 1rem); */
+      /* line-height: min(var(--space-xl-2xl), 1rem); */
+   }
+}
+
+@media screen and (max-width: 641px) {
+   .header-home-container {
+      background: rgba(0, 0, 0, 0.7) url("../images/jpg/simone-savoldi-mJDuO7CzO74-unsplash.jpg") !important;
+      background-attachment: fixed !important;
+   }
+
+   .home-title {
+      font-size: var(--step-3) !important;
+      /* padding-top: 15vh !important; */
+   }
+}
+
+@media screen and (max-width: 961px) {
+   main {
+      padding-inline: var(--space-s-l);
+   }
+}
+
+@media screen and (max-width: 1025px) {
+   main {
+      padding-inline: var(--space-s-m);
+      margin-inline: auto;
+      max-width: 900px;
+   }
+}
+
+@media screen and (max-width: 1281px) {
+
+}

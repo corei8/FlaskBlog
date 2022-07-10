@@ -1,0 +1,82 @@
+<input type="checkbox" class="hide" id="nav-toggle">
+<div class="nav flex-c">
+    <div class="home flex-c stack010 step-0-wh" id="home">
+		<a class="flex-c" href="{{ url_for('landing_page') }}">
+			<svg class="dark-fill" xmlns="http://www.w3.org/2000/svg" width="1" height="1" viewbox="0 0 576 512">
+				<path fill="" d="M575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6H511.8L512.5 447.7C512.5 450.5 512.3 453.1 512 455.8V472C512 494.1 494.1 512 472 512H456C454.9 512 453.8 511.1 452.7 511.9C451.3 511.1 449.9 512 448.5 512H392C369.9 512 352 494.1 352 472V384C352 366.3 337.7 352 320 352H256C238.3 352 224 366.3 224 384V472C224 494.1 206.1 512 184 512H128.1C126.6 512 125.1 511.9 123.6 511.8C122.4 511.9 121.2 512 120 512H104C81.91 512 64 494.1 64 472V360C64 359.1 64.03 358.1 64.09 357.2V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5L575.8 255.5z" />
+			</svg>
+		</a>
+	</div>
+	<label for="nav-toggle" class="nav-button flex-c stack010 step-0-wh" id="navToggle" onclick="toggleNav()">
+		<svg class="dark-fill main-hamburger" xmlns="http://www.w3.org/2000/svg" width="1" height="1" viewbox="0 0 448 512">
+			<path id="navButton" fill="" d="M0 96c0-17.67 14.33-32 32-32h384c17.7 0 32 14.33 32 32c0 17.7-14.3 32-32 32H32c-17.67 0-32-14.3-32-32zm0 160c0-17.7 14.33-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.67 0-32-14.3-32-32zm416 192H32c-17.67 0-32-14.3-32-32s14.33-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32z" />
+		</svg>
+	</label>
+	<div id="social" class="social-links-menu stack010">
+		<a class="twitter flex-c" href="https://twitter.com/TheThesisDotUs">
+			<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1" height="1" preserveaspectratio="xMidYMid meet" viewbox="0 0 512 512">
+				<path fill="#262626" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645c0 138.72-105.583 298.558-298.558 298.558c-59.452 0-114.68-17.219-161.137-47.106c8.447.974 16.568 1.299 25.34 1.299c49.055 0 94.213-16.568 130.274-44.832c-46.132-.975-84.792-31.188-98.112-72.772c6.498.974 12.995 1.624 19.818 1.624c9.421 0 18.843-1.3 27.614-3.573c-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319c-28.264-18.843-46.781-51.005-46.781-87.391c0-19.492 5.197-37.36 14.294-52.954c51.655 63.675 129.3 105.258 216.365 109.807c-1.624-7.797-2.599-15.918-2.599-24.04c0-57.828 46.782-104.934 104.934-104.934c30.213 0 57.502 12.67 76.67 33.137c23.715-4.548 46.456-13.32 66.599-25.34c-7.798 24.366-24.366 44.833-46.132 57.827c21.117-2.273 41.584-8.122 60.426-16.243c-14.292 20.791-32.161 39.308-52.628 54.253z" />
+			</svg>
+		</a>
+		<a class="youtube flex-c" href="https://youtube.com/epikeya">
+			<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1.13" height="1" preserveaspectratio="xMidYMid meet" viewbox="0 0 576 512">
+				<path fill="#262626" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597c-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821c11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205l-142.739 81.201z" />
+			</svg>
+		</a>
+		<a class="email flex-c" href="mailto:cassisiacumthesis@gmail?subject=Inquiry&body=Compose your email...">
+			<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" width="1" height="1" preserveaspectratio="xMidYMid meet" viewbox="0 0 512 512">
+				<path fill="#262626" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49v-.663c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2v16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.16-16.02-16.01-16.02l-31.98.003c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2v-20.9c0-149.2-133.9-265.632-287.3-235.57zm31.3 283.57c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05s-20.6 48.05-48 48.05z" />
+			</svg>
+		</a>
+	</div>
+	<div class="nav-background stack005 trans shadow glassy"></div>
+	<input type="checkbox" class="hide show-submenu" id="explanation">
+	<label for="explanation" class="nav-label stack010 trans">Explanation</label>
+	<div class="nav-links stack020 trans">
+		<label for="explanation" class="close-submenu shadow flex-c step-0-wh">
+			<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1" viewbox="0 0 320 512">
+				<path fill="" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z" />
+			</svg>
+		</label>
+        <!-- include the generated menu item -->
+		<a href="{{ url_for('articles', section='explanation', article='lack-of-intention') }}">Overview</a>
+	</div>
+	<input type="checkbox" class="hide show-submenu" id="resources">
+	<label for="resources" class="nav-label stack010 trans">Resources</label>
+	<div class="nav-links stack020 trans">
+		<label for="resources" class="close-submenu shadow flex-c step-0-wh">
+			<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1" viewbox="0 0 320 512">
+				<path fill="" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z" />
+			</svg>
+		</label>
+		<a href="{{ url_for('articles', section='resources', article='thesis-show') }}">The Thesis Show</a>
+		<a href="{{ url_for('articles', section='resources', article='videos') }}">Videos</a>
+		<a href="{{ url_for('articles', section='resources', article='articles') }}">Articles</a>
+	</div>
+	<input type="checkbox" class="hide show-submenu" id="information">
+	<label for="information" class="nav-label stack010 trans">Information</label>
+	<div class="nav-links stack020 trans">
+		<label for="information" class="close-submenu shadow flex-c step-0-wh">
+			<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1" viewbox="0 0 320 512">
+				<path fill="" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z" />
+			</svg>
+		</label>
+		<a href="{{ url_for('articles', section='information', article='about-us') }}">About Us</a>
+		<a href="{{ url_for('articles', section='information', article='contact-us') }}">Contact Us</a>
+	</div>
+	<div class="submenu-background stack015 trans shadow glassy"></div>
+	<script async>
+        function toggleNav() { 
+            var x = document.getElementById("nav-toggle"); 
+            var body = document.getElementbyTagName('body')[0]; 
+            var button = document.getElementById('navButton'); 
+            if (x.checked == true) { 
+                body.style = 'overflow: auto;'; 
+                button.setAttribute('d', 'M0 96c0-17.67 14.33-32 32-32h384c17.7 0 32 14.33 32 32c0 17.7-14.3 32-32 32H32c-17.67 0-32-14.3-32-32zm0 160c0-17.7 14.33-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.67 0-32-14.3-32-32zm416 192H32c-17.67 0-32-14.3-32-32s14.33-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32z'); 
+            } else { 
+                body.style = 'overflow: hidden;'; 
+                button.setAttribute('d', 'M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z');
+            } 
+        }
+	</script>
+</div>

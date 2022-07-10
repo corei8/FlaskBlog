@@ -1,0 +1,622 @@
+# Lack of Intention
+
+[TOC]
+
+### 1\. Introduction.
+
+The first issue of the Thesis of Cassiciacum (published by the Association
+Saint-Herménégilde, Nice, May 1979) discusses at great length the subject of
+intention. In a section numbering some fifty-two pages, Bishop des Lauriers
+explains how a man who, despite the external appearances of being the pope,
+might internally posit an obstacle to his receiving the form of the papacy from
+Christ. In other words, whereas in normal circumstances, there is nothing to
+prevent Our Lord from bestowing upon the elected candidate the keys of St. Peter
+and supreme authority over the Church, in the present circumstances, something
+in the intention of the elected candidate hinders his reception of this supreme
+authority. Following is a presentation of this argument.
+
+## The Argument of Lack of Proper Intention is Proper to the Thesis
+
+### 2\. The 'Vatican II popes' are not in fact true popes.
+
+The Thesis agrees with complete sedevacantism (sometimes called 'totalism') in
+saying that the Vatican II popes are not true popes. This is a fact admitted by
+both sides using an indirect argument based on the Church's infallibility: the
+Vatican II popes, who have appeared to enjoy supreme authority over the Church,
+have universally promulgated errors in doctrine, liturgy, and discipline; they
+have done so under conditions where they should have been infallible. Therefore,
+either they are not popes, or the Church is not infallible. Since Catholic faith
+forbids us from professing the latter, the former must be true.
+
+### 3\. Explanation given by 'complete sedevacantism'.
+
+Where the Thesis disagrees with totalism is in the explanation of how these
+claimants to the papacy were not true popes. Totalism begins with an attempt to
+establish a fact of public heresy among the false popes. It proceeds to assert
+that a public heretic is not a member of the Catholic Church, and concludes that
+a non-member of the Church is elected to the papacy invalidly.
+
+### 4\. Explanation given by the Thesis.
+
+The Thesis presents an entirely different argument, based on metaphysical
+considerations of the act of acceptance of the papacy and the nature of
+authority. These are two completely distinct arguments within sedevacantism.
+Adherents to the Thesis reject the totalist conclusion as invalid. The reason
+for this is that Canon Law clearly indicates that undeclared heretics can
+validly elect and be elected in the Church (for responses to canonical
+objections, see section on Canon Law).
+
+The proposal of Bishop des Lauriers can be briefly summarized thus: in order to
+become the pope and receive authority from Christ, the elect must truly accept
+the papacy.
+
+## Matter and Form in the Papacy
+
+### 5\. Elements involved in the making of a pope.
+
+Let us consider the requisite determinations which are brought together in the
+person of a pope. The 1917 Code of Canon Law, can. 219, indicates:
+
+> The Roman Pontiff, legitimately elected, as soon as he accepts the election,
+> receives by divine law, the full power of supreme jurisdiction.
+
+There are therefore three elements which found the affirmation that someone is
+the pope:
+
+1. legitimate election
+2. acceptance of the election by the elected person
+3. the full power of supreme jurisdiction, received by divine law
+
+These three elements have separate causes: election is carried out by the
+electors; acceptance is given by the person elected; and the supreme power is
+communicated to him by God.
+
+We can therefore clearly see the three stages of the formation of a pope. First,
+a group of men (the college of cardinals) lawfully elect a candidate. Second,
+this candidate accepts the papacy. Third, God bestows upon the elected man the
+supreme authority over the Church, thus making him the pope.
+
+### 6\. Matter and form in the papacy.
+
+Theologians who have described this process have used the analogous terms of
+matter and form, which in man, for example, are the body and the soul,
+respectively. These terms have been applied analogously by philosophers and
+theologians for making distinctions in the sphere of human morality, in which
+acts may be valid or invalid. The application of these concepts (matter, form,
+validity, invalidity) to sacramental theology, for example, is well-known.
+
+In the case of the pope, theologians have therefore made a distinction between
+the subject (the person) receiving the papacy, and the authority of the papacy
+itself, describing the former as the matter of the papacy, whereas the latter is
+the form of the papacy. By the process of election and acceptance, a subject,
+the matter, is prepared and disposed to receive from God the form of the papacy,
+that is, the supreme authority over the Church. The union of this matter and
+this form produces a valid pope.
+
+St. Robert Bellarmine[^1] writes:
+
+> Therefore, when Cardinals create the Pontiff, they exercise their authority
+> not over the Pontiff, because he does not yet exist; but over the matter, that
+> is, over the person whom they dispose in a certain measure through election,
+> that he might receive the form of the pontificate from God.
+
+The same distinction is accepted by St. Antoninus and Cardinal Cajetan. It is
+therefore false to claim, as many have done, that the Thesis is a novelty in
+applying these distinctions to the papacy.
+
+### 7\. Matter and form of the papacy in the absence of a pope.
+
+When the pope dies, the papacy is thus said to remain under its material aspect
+in the ability of the Church to elect a successor, and under its formal aspect
+in Christ, ready to grant authority to the elect. Such is the teaching of St
+Antoninus (1389-1459):
+
+> Such [papal] power remains in the Church and in the College [of Cardinals]
+> with respect to that which is material in the papacy, since after the death of
+> the pope the College is able, through election, to determine a person to the
+> papacy, that it be such or such a one. [...] Hence, if by the name of papacy
+> we understand the election and determination of the person (which is the
+> material thing in the papacy, as has been said before) then such power remains
+> in the College after the death of the pope. But if by the name of papal power
+> we understand his authority and jurisdiction (which is the formal thing), then
+> such power never dies, because it always remains in Christ.
+
+As long as these two aspects of the papacy remain: the material aspect in the
+Church, and the formal aspect in Christ, the papacy is not lost. Neither is the
+teaching of the 1870 Vatican Council denied, which teaches that St. Peter will
+have perennial successors. To expect Christ to provide not only the formal
+aspect of the papacy, which is the supreme authority of the pope, but also its
+material aspect, which is the designation of a man to receive the papacy, would
+be logically committed to the admission of the loss of Apostolicity in the Roman
+See and in the universal Church. For even if a pope were named directly from
+heaven, he would not be the true successor of St. Peter anymore than a man
+created directly from God without any cooperation from men would be a descendant
+from Adam. Therefore, any system unable to explain the continuation of the
+material aspect of the papacy in the Church ought to be abandoned.
+
+### 8\. The Vatican II 'popes' are not popes formally, but only materially.
+
+Now, from the fact that the Vatican II popes have not been infallible in
+conditions where they should have been can be logically deduced the absence in
+them of the form of the pontificate, spoken of by St. Robert Bellarmine, viz.
+the supreme authority given by God to the Roman Pontiff. To this supreme
+authority is necessarily attached the charism of indefectibility, which is
+manifestly shown to be lacking in them as a result of the errors of the Second
+Vatican Council. We can therefore say of them, with certainty: they are not
+formally popes. God did not give them supreme authority over the Church.
+However, this argument alone says nothing about the other two determinants
+mentioned above (legitimate election and acceptance). As far as this argument is
+concerned, therefore, these popes would still be materially popes, and the
+opposite would require further proof.
+
+## The Last Disposition of Matter: The Acceptance
+
+### 9\. The acceptance of the election.
+
+By its nature, the intellect seeks to know the essence of a reality of which it
+grasps the existence. Now, the absence of authority in the Vatican II popes is
+known as a fact, as we have explained, but it is not yet understood as to the
+manner by which this lack of authority is brought into being.
+
+We know as a fact that the Vatican II popes, despite apparently valid elections,
+have not received the supreme authority from Christ. Is this possible? The
+answer is in the affirmative, since between a legitimate election and the
+reception of authority from God intervenes a middle act, as we have seen: the
+acceptance of the election by the person elected. This is an act of the will, on
+the part of the elect, which should be manifested externally, but by its very
+nature needs also to be internal to be valid. In other words, it is necessary
+that the elect sincerely have and express his acceptance of the election. By a
+simple act of the will, therefore, the elect can choose to receive the supreme
+authority of the Church, or refuse it. He may also accept it for a time, and
+then willingly resign it later on; Pope St. Celestine (1215-1296) is a
+well-known example of this. This simple act of the will is called the
+acceptance.
+
+### 10\. Role of the acceptance.
+
+According to Bonacina, acceptance does not mean that the pope constitutes
+himself as a pope, or joins the papacy to himself, "because the consent to the
+election is not the election or creation or constituting of a pope, but a
+condition required for the complete effect of the election and the constitution
+of a pope."
+
+Cardinal Cajetan teaches similarly:
+
+> Ever since the immediate institution of the first 'Peter' by Christ Himself,
+> the union between the papacy and Peter does not come from God but from man.
+> This is made evident from the fact that this union is produced through the
+> intermediary of a human election. Two human consents contribute to this
+> effect, namely that of the electors and that of the elect. It is indeed
+> necessary that the electors elect voluntarily, and that the elect accepts the
+> election voluntarily, for otherwise nothing happens.
+
+Bonacina says in equivalent terms (ibid.):
+
+> The fourth condition is that the person elected consent. The reason for this
+> is, first, that no one can begin to possess something in a moral manner
+> without his consent; therefore in order that someone begin to possess the
+> papacy or Pontifical power, his consent is necessary. Also, because by the
+> conferral of the papacy the person elected contracts many obligations, and is
+> obliged as if by a contract (quasi ex contractu); but an obligation from a
+> contract or quasi contract is not contracted without consent, as Cajetan
+> rightly says in chapter 26 of his first book De Comparatione Papae et
+> Concilii.
+
+### 11\. Interval between election and acceptance.
+
+In the interval between the election and the acceptance, the elect alone has the
+material aspect of the papacy (still requiring to be completed by the
+acceptance), but not yet the formal aspect. The duration of this interval is
+able to be determined by the electors, but in itself is indefinite.
+
+Bonacina explains again (ibid.):
+
+> A greater difficulty is whether the College of Cardinals has any power over
+> the person elected, who has not yet accepted the election. It seems to me that
+> one should answer with Sopranus (in the above-quoted place) that they have the
+> power to order him that he accept the election as soon as possible, or that he
+> decline it, if he be unwilling to accept it. The reason is that during the
+> vacancy of the See the whole College has power over each single Cardinal, at
+> least in those things that pertain to the election, [as can be seen in] the
+> above-quoted chapter Ubi Periculum: hence it can force the elected to person
+> to accept the election or to decline it, if he is unwilling to accept it.
+
+### 12\. Different alternatives are possible in the interval between election a acceptance.
+
+As a matter of fact, the elect can either accept or refuse the election, or do
+neither. In the case of acceptance, he becomes a true pope. In the case of
+refusal, he returns to the state he was before the election, and someone else
+could, and should, be elected in his place. In the case of neither acceptance
+nor refusal, which is the more interesting, he remains the elect of the conclave
+without as yet being a true pope, endowed with supreme authority, for as long as
+he does not make a decision. The current situation of the papacy, as we shall
+explain, is a little bit half-way between someone who has truly accepted and
+someone who has neither accepted nor refused: the elect has indeed accepted
+exteriorly (as is evident), but not internally (as we shall prove).
+
+The situation during this interval is therefore not one of pure vacancy of the
+Roman See. Again, Bonacina says it in clear terms (ibid., emphasis added):
+
+> Secondly, it does not follow that the Apostolic See is simply (simpliciter)
+> vacant while the election has been made by the Cardinals and the person
+> elected has not yet given his consent, as when the person elected is an absent
+> Cardinal (as happened to Adrian VI who was in Spain in 1521), for even though
+> the election has not yet achieved its full effect and the Apostolic See is not
+> yet said to be occupied, for as long as the consent of the person elected has
+> not followed; but the Apostolic See is not vacant on account of this, because
+> the See is said to be vacant when it does not have a Pontiff in any way, but
+> in our case it does have a Pontiff in a certain way, since a pope has already
+> been elected, and even though he has not yet been created, he nevertheless has
+> been as though conceived and exists, so to speak, in the womb.
+
+The last determination of the matter, prepared to receive the form of the
+papacy, is therefore the internal consent of the elect. Even in the case of a
+legitimate election, and assured of the promise of Christ to grant authority on
+the legitimate successor of St. Peter, the last condition still needs to be
+posited for validity: a sincere internal acceptance of the papacy by the elect.
+
+## Could an External Consent be Rendered Invalid by an Internal Obstacle?
+
+### 13\. The act of acceptance is a human act.
+
+So far, we have underlined the necessity that the acceptance of the papacy be
+not only externally manifested but also internally sincere in order to be valid.
+It is now time for us to prove it.
+
+The acceptance of the papacy (like the election, or any legitimate
+ecclesiastical act) is what is called a human act. In theology, human acts are
+distinguished from acts of man in that they are not mere acts done by a subject
+independently of his control (such as digestion), but that they do imply
+knowledge and consent of the subject. Any moral act is a human act. Thus a sin,
+in order to be such, should not only have been objectively committed, but should
+have been so through knowledge and consent. These are the very elements of a
+human act, they are intrinsic to it, and belong to its very nature. Legitimate
+ecclesiatical acts, such as election, are human acts. Indeed, canon 167 of the
+1917 Code of Canon Law clearly denies any right of election to someone unable to
+produce a human act. Similarly, an election obtained through grave threats
+imposed on the electors is invalid, because they would have lacked the proper
+consent which ought to be given to such an action, despite the external vote.
+
+### 14\. Knowledge and consent are required for a valid acceptance.
+
+The acceptance of the election is a human act, which therefore ought to be made
+with proper knowledge and consent; otherwise it would be invalid. Thus a person
+deprived of the use of reason cannot truly accept the papacy (even if one were
+to obtain an external expression of acceptance from him), because such a person
+is incapable of a human act, and therefore also incapable of understanding and
+accepting the implications of his acceptance. When the elect of the conclave
+accepts his election to the Sovereign Pontificate, by his very act of accepting
+the election, he also accepts and assumes the role and functions of the
+Sovereign Pontificate. The role and functions of the Pontificate are independent
+of his will; they are found in the very nature of things as established by
+Christ. He who accepts the papacy agrees to be pope, to fulfill the functions of
+the papacy, and to embrace the essential properties of this role. And since the
+finality of the papacy is determined by God, the elect is not allowed to invent
+it. He could not accept the election with the intention to exercise the papacy
+as something different than what was established by Christ.
+
+### 15\. The teaching of John of St. Thomas indicates the intention to be requirement of natural law.
+
+This condition necessary for a valid acceptance is not a new condition,
+implemented by any human law. It rather belongs to the very nature of a human
+act, and is therefore a necessary condition belonging to the natural law. Such
+"conditions" of natural law did not need to be positively established by any
+authority, nor were they rejected by theologians. The Dominican John of St
+Thomas, for example, enumerates how an election (and by this term he here
+includes both the vote of the electors and the acceptance by the elect) could be
+invalid, and explains:
+
+Similarly other exceptions of the natural law can be admitted: if the elect is
+not a man, if he is deprived of reason, etc.
+
+Later on, while discussing the question of the universal acceptance of a pope by
+the universal Church, this great theologian mentions that this would be a sign
+that the pope "was elected by true electors, and with a real intention, and all
+the other requirements," "quod a veris electoribus, et per veram intentionem sit
+electus, et caetera alia requisita." Here, and again a little later in the same
+article, he clearly indicates explicitly the proper intention of the electors
+("intentio eligentium") as an obvious requirement for a valid election, which
+does apply as well, for an even greater reason, to the act of acceptance, on the
+part of the elect.
+
+### 16\. The acceptance of the papacy is compared to a marriage contract.
+
+The acceptance of the papacy is thus a quasi-contract with Christ and with the
+Church, and it should therefore not surprise anyone that Thesis-holders,
+following the steps of past theologians such as Cajetan, Passerini and Bonacina,
+have compared it to a marriage contract, using this analogy to clearly show how
+a consent, despite having been given externally, could in fact be insincere and
+therefore invalid.
+
+Bonacina thus explains:
+
+> Just as marriage cannot be validly celebrated with a infant, or with an insane
+> person during the time of madness or insanity, so neither can he be validly
+> elected to become pope, who does not have the use of reason, since the papacy
+> is like a sort of matrimony between the pope and the Church, as the Doctors
+> teach by a comparison concerning him to whom a benefice is conferred.
+
+Bonacina testifies that this analogy is commonly used in theology. Cardinal
+Cajetan thus compares the consent of the electors and the person elected
+("Peter") to the consent given by the spouses in matrimony:
+
+Since two consents concur to the bond of marriage, namely, that of the husband
+and that of the wife, and the total cause of this bond consists in this twofold
+consent, one spouse cannot cause this bond without the consent of the other
+spouse. In our case two consents also concur in the establishment of the bond
+between Peter and the Papacy, namely, that of the electors and that of Peter
+elected; and both consents taken together are the total cause of this union.
+
+### 17\. A marriage consent given externally could be internally invalid.
+
+It is well-known that the consent given outwardly during a marriage ceremony
+could be vitiated by an internal lack of proper intention, if one of the spouses
+does not truly intend what marriage objectively is. Moral theologians explain
+that this is clearly the case (1) when the intention does not correspond to the
+objective essence of marriage, or even in some cases (2) when certain essential
+properties (such as indissolubility) are positively excluded, despite an
+inefficacious acceptance of the nature of marriage.Thus if one of the spouses
+were to posit internally a defect of consent with regards to the primary end of
+marriage, the marriage, although juridically recognized by the Church, would not
+be valid in the eyes of God. There would really be no contract, no sacrament,
+and the spouses would not be truly married. This would be a very serious sin on
+the part of the spouses who thus simulated the matrimonial consent and
+consequently rendered the marriage invalid. However, from the perspective of
+human law, the marriage has happened, and is presumed to be valid until
+otherwise established. At the same time, under the law, the spouses are not free
+to marry again, but are legally married. If they are aware of this invalidity,
+they cannot in good conscience ask one another to render the marital debt, since
+they know that they are not married before God. But since they enjoy the
+external presumption of the law, any children born of them is recognized as
+legitimate by the law. The situation could be remedied by petitioning the Church
+for a juridical declaration of nullity of the marriage bond, called an
+annulment. Even better, the guilty spouse could internally amend and correct his
+or her intention, now accepting the indissolubility of marriage, thus rendering
+the marriage truly valid. This could happen even without the knowledge of the
+other spouse, supposing the other spouse kept the first intention to marry.
+
+### 18\. Application to our case.
+
+The analogy with the acceptance of the papacy should be evident to the reader.
+Let Fr. Ricossa make it clear for us: "In the same way, the elect of the
+conclave who has only externally and not truly given his consent to the election
+is not in the same situation as he was before the conclave (when he was not yet
+elected) and before the acceptance (when he was only the elect without having
+given his external acceptance). He is a 'putative' Pontiff [i.e. he appears to
+be the pope] or materially 'pope' [i.e. having been elected, but not having
+truly accepted]. The See is occupied by him, and cannot be occupied by someone
+else for as long as the election has not been declared null by the Church.
+Certain juridical acts which are indispensable for the life of the Church can
+have juridical effect (either in themselves, or by suppliance of Christ, Head of
+the Church) And finally, the acceptance of the election can be validated, by
+means of the removal of the obstacle which was placed earlier and brought about
+the defect in the consent..."
+
+## What Intention is Required to Receive Authority?
+
+### 19\. To accept the papacy is to accept what the pope is objectively meant do.
+
+To accept the papacy validly, the elected candidate must accept it as it is
+objectively, i.e. as established by Christ. This is to say that the acceptance
+of the papacy ought to be a human act: done with proper knowledge and consent.
+The person elected to the papacy must have the intention of doing what popes do
+in order to be the pope.
+
+### 20\. What matters is therefore the objective intention, manifested externally which is necessarily included in the subjective intention, which is internal.
+
+We are not here dealing with the personal intention as such, which often can
+only be observed with difficulty. Hence, strictly speaking, we are not even
+concerned about the morality of the intention. One could accept to marry for a
+bad or a good motive, for example, and still marry validly (whether it be for
+the sake of lust, for the sake of money, or for the sake of having a Catholic
+family, etc). In either case, it is still possible for the person to accept
+marriage as it is objectively. The same is true of the papacy: one could accept
+to become the pope for the sake of vanity, pride, ambition, avarice, etc. This
+is irrelevant to the problem at hand: one would still accept to become the pope.
+The intention of which we are speaking of, therefore, is not the finis cujus
+gratia opus fit, the end for which one does something, which is extrinsic to it,
+but the very finis operis, the intrinsic end of the work itself.
+
+### 21\. The objective intention is able to be known.
+
+Although the personal motive can sometimes be very difficult to judge and
+determine, the objective intention itself can easily become evident. It is
+sometimes difficult to determine why a person does such and such an action. But
+the intrinsic end of these actions is usually evident in itself. For example, it
+might be unclear as to why someone is cultivating land, while it is evident that
+the intrinsic end of his action is the cultivation of land. It might be unclear
+as to why someone wants to enter the convent, while it is very clear that this
+person wants to enter the convent, etc. Hence the argument of the Thesis is not
+based on the subjective intention of the person, but on the objective intention
+intrinsic to the very actions posited by the person.
+
+Some theologians have thus thought of the hypothesis of a pope who, for example,
+would not want to exercise the duties of the papacy in its spiritual power, but
+merely behave as a temporal ruler of the Church's States. This could easily be
+observed by the Cardinals, who would then have to intervene.
+
+### 22\. Pope Leo XIII on the question of intention in the case of Anglican orders.
+
+Pope Leo XIII has declared the invalidity of the Anglican orders by the Bull
+Apostolicae curae, of 1896, on account of a defect both of form and of
+intention. Concerning the intention of the minister, Pope Leo XIII explains:
+
+The Church does not judge about the mind and intention, in so far as it is
+something by its nature internal; but in so far as it is manifested externally
+she is bound to judge concerning it.
+
+Pope Leo XIII makes it clear that an intention is by nature something internal,
+and which is manifested externally. He further confirms that this intention is
+able to be judged not inasmuch as it is internal, but inasmuch as it is being
+manifested externally, which is the same principle used by the Thesis in the
+present argument.
+
+A further comment may be here made on the following words of Leo XIII in the
+same Bull:
+
+> If the rite be changed, with the manifest intention of introducing another
+> rite not approved by the Church and of rejecting what the Church does, and
+> what, by the institution of Christ, belongs to the nature of the Sacrament,
+> then it is clear that not only is the necessary intention wanting to the
+> Sacrament, but that the intention is adverse to and destructive of the
+> Sacrament.
+
+Pope Leo XIII clearly explains that to deliberately reject a rite of the Church,
+replacing it with another that does not anymore reflect "what, by the
+institution of Christ, belongs to the nature of the Sacrament," is tantamount to
+not having the required intention. We shall see later how to guard the
+sacraments of the Church and in particular to safeguard the Holy Sacrifice of
+the Mass must be intended by the person who accepts the election to the papacy.
+It appears then very clearly as a consequence that to intend to deliberately
+reject the traditional Roman rite and to replace it with another that does not
+anymore reflect "what, by the institution of Christ, belongs to its nature,"
+would also, by analogy, be a clear defect of intention in the acceptance of the
+papacy.
+
+### 23\. Authority has an essential order to the common good.
+
+What is therefore the objective intention required to validly accept the papacy?
+It is the objective end for which it was established by Christ. Now the end of
+any authority is the common good of the society over which it rules. This is
+true even of civil authorities. Authority has an essential order to the common
+good, so much so that a law issued against the common good is no law at all.
+
+### 24\. Comparison and differences between the papacy and a natural authority.
+
+As we have said, a law issued against the common good is no law at all. In civil
+powers, one illegitimate law would not however necessarily render its lawgiver
+illegitimate, if the later preserves a habitual order to the common good. One
+would have to ignore the illegitimate law and observe the other ones.
+
+There is, however, this important difference with the supreme authority of the
+Church. In the case of the papacy, as we have seen previously, the supreme
+authority is constituted by an immediate communication from Christ. Now, the
+assistance of the Holy Ghost has been divinely promised with this habitual
+communication from Christ. The Roman Pontiff is therefore infallibly assisted by
+Christ, and could never promulgate a universal law which would be harmful to the
+Church, as is explained in another section of this website.
+
+Hence, while it is sometimes justified to 'recognize' a civil government while
+'resisting' its unjust laws, this policy can never be justified with regard to
+the supreme government of the Holy Catholic Church and its universal laws.
+
+As a consequence, the Roman Pontiff either possesses supreme authority, or he
+does not possess supreme authority. There is no middle ground possible. The
+habitual intention to procure the common good of the Church is still required,
+however, in order to receive this authority from Christ, since it is the
+essential end for which was instituted the papacy.
+
+## What is the Common Good of the Church?
+
+### 25\. The supreme law of the Church indicates its common good.
+
+Since a law is ordered to the common good, the supreme law of the Church is an
+accurate indication of its supreme good. This supreme law of the Church is the
+glory of God and the salvation of souls, salus animarum suprema lex.
+
+This salvation of souls can be further explained by considering the threefold
+mission of the Church: to teach, to rule, and to sanctify the faithful, in order
+to lead them to heaven. It is therefore clear that the end of the Church
+includes the preaching of the faith (which demands condemnation of heresy as a
+consequence), the maintaining of holy disciplinary laws, and the sanctification
+of the faithful by the administration of sacraments.
+
+### 26\. Pope Pius XII provides us with an example of one thing which must be intended in order to accept the papacy.
+
+The Apostolic Constitutions on papal elections do not specify what the
+acceptance of the election imports. Nevertheless Pope Pius XII himself has
+indicated at least one thing which the elect should intend: if he be layman, he
+must intend to be consecrated a bishop in order to be able to accept the
+election.
+
+> "Even if a layman were elected pope, he could accept the election only if he
+> were fit for ordination and willing to be ordained."
+
+Indeed the pope is the bishop of Rome, and as we have said, one must accept the
+papacy as established by Christ. According to Pope Pius XII, therefore, Christ
+established the papacy in such a way that the elected candidate must be a
+bishop, or at least must agree to be consecrated a bishop. Pope Pius XII does
+not require the layman elected to the papacy to be consecrated a bishop in order
+to then become the pope; he merely indicates that a non-bishop must have the
+will to be consecrated a bishop in order to have a proper acceptance of the
+papacy. The layman, if he did so, would be pope at once, even before being
+ordained a priest and consecrated a bishop. To be deprived of the power of
+orders, therefore, does not deprive him of the Pontificate, but of an intention
+contrary to the Pontificate. A lack of intention to be consecrated a bishop
+introduces a defect in the consent, and therefore prevents the elect from being
+able to properly accept the election. This would a fortiori be true of someone
+who, in a more general way, does not have the habitual intention to procure the
+good of the Church.
+
+### 27\. Another example taken from Church history.
+
+During the terrible crisis of the great Western Schism, there were up to three
+simultaneous claimants to the papacy, three 'popes' at the same time, each
+claiming to be the only real one. One claimant was residing in Rome (Gregory
+XII), another in Avignon (Benedict XIII), and the last one in Pise (John XIII).
+Ultimately, two of them (John XIII and Benedict XIII) were deposed by the
+Council of Constance, and the other (Gregory XII) renounced the papacy. It was
+very difficult in this period for Catholics to know which pope was the true
+pope, and this has continued to be discussed by historians, although there seems
+to now be a consensus that Gregory XII was the true pope. This touches on the
+question of a doubtful pope. Papa dubius, papa nullus, says the axiom, a
+doubtful pope is no pope. But it could happen (and this was the case of Gregory
+XII) that a true pope, validly elected, and therefore truly possessing the
+supreme authority over the universal Church may become doubtful, not before God
+and in reality (coram Deo), but in the common estimation of men and in the eyes
+of the Church (coram Ecclesia). On account of the supreme necessity for the
+Church to know with certainty the identity of her supreme pastor, the Church is
+in this case entitled to assess the situation and require from doubtful popes
+that they resign, following a process similar to that reserved to the heretical
+pope. After the general Council has asked the doubtful pope to resign, even if
+he should refuse, he would have proven guilty of a schismatical attitude by not
+attending to this extreme need of the Church, and therefore clearly deprived of
+the authority of Christ, in case he formerly had it. In other words, even if, by
+hypothesis, a true pope before God and in reality but doubtful before the Church
+would refuse to resign his claim, he would by this refusal actually lose the
+papacy anyway, since to refuse to cooperate in such a grave matter is tantamount
+to schism. This is the explicit teaching of great theologians such as Azor,
+Cajetan, Suarez, John of St. Thomas, Zapelena, etc. And these were the
+principles applied by the Council of Constance to solve the great Western
+Schism. Incidentally, a false council in Pise tried to do something similar, and
+pretended to depose the two other claimants, in favor of the claimant of Pise,
+called John XXIII. This Council was illegitimate, certainly, but the same
+principles were used, as is explained by Muzzarelli.
+
+It appears very clearly in this example that to intend the common good of the
+Church is a requirement of the papacy, and that to not intend this good of the
+Church would make a pope lose the papacy. In this particular case, the good of
+the Church was to willingly cooperate in ending the schism by renouncing any
+claim to the papacy, so as to proceed to a single election that might unite all.
+
+## Did the Vatican II Popes Lack the Proper Intention?
+
+### 28\. The very existence of the traditionalist movement is proof positive of this lack of intention.
+
+The answer, for any traditionalist, should be in the affirmative. Any
+traditional Catholic who refuses the changes of Vatican II and the New Mass as
+something contrary to the glory of God and the salvation of souls is a living
+witness to this fact. Thus, Bishop Guérard des Lauriers said: "By its very
+existence, Ecône witnesses in concrete terms to what we affirm intelligibly."
+Indeed the entire apostolate of the SSPX is based upon the idea that the
+preservation of Tradition is necessary for the salvation of souls, and that the
+present 'hierarchy' and particularly the Vatican II popes are not objectively
+doing what they should. In this last point they are right.
+
+It is obvious to any sincere observer that the Vatican II popes are not
+exercising the papacy as it has been exercised for centuries, since the time of
+St. Peter up to Pope Pius XII. Instead, they are taking advantage of the
+influence of the papacy in order to preach a dogma-less humanism which is in
+total opposition to the Catholic religion. This is true independently of their
+subjective intention; but whether they are in good conscience or not, the fact
+remains that they do not objectively intend the good of the Church.
+
+The proofs of this kind have been numerous in number, but they are particularly
+obvious during the present incumbent Jorge Bergoglio. Of his own accord he set
+aside the title "vicar of Christ" among the "historical titles", clearly
+indicating that in his mind the pope is not anymore the vicar of Christ, and
+does not claim to be so. He has manifested endless efforts to suppress Catholic
+doctrine, the Catholic Mass, and traditional discipline. He clearly does not
+intend to be what the pope traditionally is, by the design of Christ Himself.
+
+[^1]: De Romano Pontifice, Bk. II, c. 30

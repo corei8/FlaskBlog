@@ -1,0 +1,18 @@
+/* min-width = 481 px */
+/* tablets and larger smartphones */
+
+.toc {
+    width: calc(var(--space-3xl) * 4);
+    border: solid 1px var(--black);
+    margin-inline: auto;
+}
+
+main {
+    padding-inline: var(--space-s-m);
+    /* letter-spacing: calc(var(--space-3xs-2xs) / 1rem); */
+    /* line-height: min(var(--space-xl-2xl), 1rem); */
+}
+
+.home-title {
+    font-size: var(--step-3) !important;
+}

@@ -1,0 +1,18 @@
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.copyright {
+    color: var(--black);
+    font-size: 1rem;
+    font-family: 'Noto Serif Display', serif;
+}

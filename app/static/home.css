@@ -1,0 +1,50 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+    font-family: 'Sura', serif;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+h1 {
+    visibility: hidden;
+}
+
+h3 {
+    padding-top: var(--space-l);
+    font-size: var(--step-2);
+}
+
+iframe {
+    display: block;
+    margin-inline: auto;
+}
+
+p,
+li {
+    /*font-size: var(--step-1)*/
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+
+blockquote {
+    border-left: 3px solid var(--accent);
+}
+
+blockquote>p {
+    text-indent: 0;
+}
+
+blockquote>p::before {
+    content: '\201C';
+}
+
+blockquote>p::after {
+    content: '\201D';
+}
