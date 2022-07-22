@@ -1,0 +1,35 @@
+<html>
+	<head>
+	<title>MicroSite Builder</title>
+	<style>
+		.form {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 90%;
+			width: 100vw;
+		}
+
+		form {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+		}
+	</style>
+	</head>
+	<body>
+		<h1>MicroSite</h1>
+		<div class="form">
+			<form method="put">
+				<input type="text" name="username" required>
+				<input type="password" name="username" required>
+				<button>Submit</button>
+			</form>
+			<button><a href={{ url_for('builder_home') }}>Enter Builder</a></button>
+		</div>
+
+		<footer>
+			2022
+		</footer>
+	</body>
+</html>

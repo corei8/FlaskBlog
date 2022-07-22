@@ -10,6 +10,7 @@ from flask import abort, render_template
 from icecream import ic
 from markdown.extensions.toc import TocExtension
 
+# TODO use a separate file for the markdown rendering engine.
 HTML_PATH = './app/templates/articles/'
 MKDN_PATH = './app/articles/'
 MKDN_SECTION_PATH = './app/articles/sections/'
@@ -79,21 +80,7 @@ def build_menu() -> None:
 	return None
 
 def log_user_activity(file: str) -> None:
-	# log_entry = '\n'+log_date+' '+file
-	# json_entry = {file: log_date}
-	# with open(LOGBOOK, 'r') as log:
-		# try:
-			# data = json.loads(log.read())
-		# except json.decoder.JSONDecodeError:
-			# data = json_entry
-			# with open(LOGBOOK, 'w') as empty_log:
-				# json.dump(data, empty_log)
-				# ic('database was empty')
-				# return None
-		# else:
-			# data = json.loads(log.read())
-				# json.dump(data, full_log)
-				# ic('database was not empty')
+	"""Write user events to a file for analytics"""
 	return None
 
 def grab_title(file: str, directory: str) -> str:
@@ -222,7 +209,7 @@ def split_article(article: str, directory: str) -> None:
 	link_end = '">See in Context</a>'
 	with open(r''+HTML_PATH+directory+'/'+filename_html(article), 'r') as f:
 		chunks = re.split(reg, f.read())
-	del chunks[0] # this will always be the title/summary
+	del chunks[0] # this will always be the title/summary TODO adjust this for all use cases
 	repaired_chunks = make_links(chunks)
 	for part in range(0, len(repaired_chunks), 3):
 		num = re.search(r'\d{1,4}', repaired_chunks[part+1], re.M|re.I)

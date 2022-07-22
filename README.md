@@ -9,7 +9,7 @@ This website uses the microframework [Flask](https://flask.palletsprojects.com/e
 
 ## How to use this?
 
-Word on this later...
+Work on this later...
 
 ### How do we get the articles as HTML?
 
@@ -17,11 +17,11 @@ The articles are interpreted markdown files.
 
 ## Contributing
 
-Contributions are welcome.
+Contributions are more than welcome.
 
 ## Development
 
-It is recommended to use a virtual environment:
+Use a virtual environment:
 
 ```bash
 pip install requirements.txt
@@ -36,5 +36,5 @@ pip freeze > requirements.txt
 Start the server:
 
 ```bash
-gunicorn -w 2 --reload application:application
+gunicorn -w 2 --reload app:app
 ```
