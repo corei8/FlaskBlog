@@ -21,7 +21,7 @@ Contributions are welcome.
 
 ## Development
 
-It is recommended to use a virtual environment:
+Use a virtual environment:
 
 ```bash
 pip install requirements.txt
