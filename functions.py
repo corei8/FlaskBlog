@@ -10,6 +10,8 @@ from flask import abort, render_template
 from icecream import ic
 from markdown.extensions.toc import TocExtension
 
+
+# TODO put in separate file fir global variables
 HTML_PATH = './app/templates/articles/'
 MKDN_PATH = './app/articles/'
 MKDN_SECTION_PATH = './app/articles/sections/'
@@ -79,21 +81,6 @@ def build_menu() -> None:
 	return None
 
 def log_user_activity(file: str) -> None:
-	# log_entry = '\n'+log_date+' '+file
-	# json_entry = {file: log_date}
-	# with open(LOGBOOK, 'r') as log:
-		# try:
-			# data = json.loads(log.read())
-		# except json.decoder.JSONDecodeError:
-			# data = json_entry
-			# with open(LOGBOOK, 'w') as empty_log:
-				# json.dump(data, empty_log)
-				# ic('database was empty')
-				# return None
-		# else:
-			# data = json.loads(log.read())
-				# json.dump(data, full_log)
-				# ic('database was not empty')
 	return None
 
 def grab_title(file: str, directory: str) -> str:
