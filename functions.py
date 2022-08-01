@@ -10,6 +10,7 @@ from flask import abort, render_template
 from icecream import ic
 from markdown.extensions.toc import TocExtension
 
+# here is a comment
 
 # TODO put in separate file fir global variables
 HTML_PATH = './app/templates/articles/'
