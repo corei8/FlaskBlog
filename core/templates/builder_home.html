@@ -1,13 +1,16 @@
 <html>
 	<head>
 	<title>MicroSite Builder</title>
-		<link rel="stylesheet" href="../static/css/normalize.css">
-		<link rel="stylesheet" href="../static/css/builder.css">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/builder.css') }}">
 	</head>
 	<body>
 		<div class="master_container">
-			<nav class="nav fl_c_ar accent_grey">
-				<span>MicroSite</span>
+			<nav class="nav accent_grey">
+				<div class="nav_container">
+					<!--<span>MicroSite</span>-->
+					<img class="logo" src="{{ url_for('static', filename='images/microsite_branding/logo.png') }}" alt="">
+				</div>
 			</nav>
 			<div class="main_container">
 				<aside class="menu">
@@ -30,6 +33,7 @@
 									</li>
 									{% endfor %}
 								</ul>
+								<form method="post"><input type="submit" value="Add Page"></form>
 							</div>
 						</div>
 						{% elif page_view == 'edit_page' %}

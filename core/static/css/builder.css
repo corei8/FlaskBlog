@@ -14,7 +14,22 @@
 }
 
 .nav {
-    flex-grow: 1;
+    /*flex-grow: 1;*/
+    display: flex;
+    align-items: stretch;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    /*height: 100%;*/
+    width: 100vw;
+    align-items: center;
+}
+
+.logo {
+    max-height: 10em;
 }
 
 .main_container {
