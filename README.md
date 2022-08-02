@@ -1,4 +1,8 @@
-# **⚠ WARNING! ⚠** This framework is in development and should not yet be used for production. You have been warned.
+# ⚠ WARNING!
+
+## This framework is in development and should not yet be used for production. You have been warned.
+
+---
 
 # MicroSite
 
