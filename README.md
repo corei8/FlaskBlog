@@ -32,8 +32,13 @@ If you add a python package, remember to use:
 ```bash
 pip freeze > requirements.txt
 ```
+Start the development server, with debugging enabled by default:
 
-Start the server:
+```bash
+python app.py
+```
+
+Start the production server:
 
 ```bash
 gunicorn -w 2 --reload app:app
