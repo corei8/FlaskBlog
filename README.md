@@ -1,3 +1,6 @@
+** ☡ WARNING! ☡ ** This framework is in development and should not yet be used for
+production. You have been warned.
+
 # MicroSite
 
 Small tool built with Python and Flask for building static websites with
