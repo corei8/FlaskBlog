@@ -1,8 +1,0 @@
-/* min-width = 1025 px */
-/* larger laptops, medium desktops */
-
-main {
-  padding-inline: var(--space-s-m);
-  margin-inline: auto;
-  max-width: 900px;
-}

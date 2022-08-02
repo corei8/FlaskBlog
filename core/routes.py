@@ -1,9 +1,11 @@
 from datetime import *
 from time import perf_counter
 
-from flask import abort, render_template
+from flask import abort, render_template, request
 from flask_optimize import FlaskOptimize
 from icecream import ic, install
+
+from core.microsite_utils.builder import get_all_pages
 
 from core import app
 # from functions import (markdown_checker, render_article, valid_sections,
@@ -28,10 +30,26 @@ date = datetime.now().strftime('%Y')
 def builder():
 	return render_template('builder.html')
 
-@app.route("/builder_home", strict_slashes=False)
+PAGES = 'pages/'
+
+@app.route("/builder_home", strict_slashes=False, methods=['POST', 'GET'])
 @flask_optimize.optimize()
 def builder_home():
-	return render_template('builder_home.html')
+	if request.method == 'POST':
+		# TODO add flag for return type
+		file = request.form['page_to_edit']
+		with open(PAGES+file, 'r') as f:
+			file_content = f.read()
+		return render_template(
+				'builder_home.html',
+				page_view = 'edit_page',
+				content=file_content
+				)
+	return render_template(
+			'builder_home.html',
+			pages_list = get_all_pages(),
+			page_view = 'menu',
+			)
 
 # @app.route("/<section>/<string:article>", methods=['GET'], strict_slashes=False)
 # @flask_optimize.optimize()

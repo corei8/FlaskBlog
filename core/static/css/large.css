@@ -1,9 +1,0 @@
-.header-home-container {
-    background: rgba(0, 0, 0, 0.7) url("../images/jpg/simone-savoldi-mJDuO7CzO74-unsplash.jpg") !important;
-    background-attachment: fixed !important;
-    background-size: cover !important;
-}
-
-.home-title {
-    font-size: var(--step-4) !important;
-}

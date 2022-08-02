@@ -14,10 +14,30 @@
 					Left Aside
 				</aside>
 				<main>
-					<div class="section_containter">
-						<h3>Pages</h3>
-						<p>All of the pages for your website. Click on one to edit it.</p>
-						<div class="section_content"></div>
+					<div class="main_container">
+						{% if page_view == 'menu' %}
+						<div class="section_containter">
+							<h3>Pages</h3>
+							<p>All of the pages for your website. Click on one to edit it.</p>
+							<div class="section_content">
+								<ul>
+									{% for page in pages_list %}
+									<li>
+										<form method="post">
+										<input type="hidden" name="page_to_edit" value="{{ page }}">
+										<input type="submit" value="{{ page }}">
+									</form>
+									</li>
+									{% endfor %}
+								</ul>
+							</div>
+						</div>
+						{% elif page_view == 'edit_page' %}
+						<form method="post">
+							<textarea name="" id="" cols="30" rows="10">{{ content }}</textarea>
+						</form>
+					<a href="{{ url_for('builder_home') }}">Back</a>
+						{% endif %}
 					</div>
 				</main>
 				<aside class="control">
@@ -25,11 +45,7 @@
 				</aside>
 			</div>
 			<footer>
-				<div class="credits fl_c_ar accent_grey">
-					<span>MicroSite 2022</span>
-					<span class="version_num">0.0.1</span>
-					<img src="" alt="">
-				</div>
+				{% extends 'builder/foot.html' %}
 			</footer>
 		</div>
 	</body>
