@@ -5,7 +5,7 @@
 		<ul>
 			{% for page in pages_list %}
 			<li>
-				<form method="post">
+				<form method="post" action="edit_page" name="pageList">
 					<input type="hidden" name="page_to_edit" value="{{ page }}">
 					<input type="submit" value="{{ page }}">
 				</form>
@@ -14,7 +14,7 @@
 		</ul>
 		<button onclick="makeVisible('page_adder')">Add Page</button>
 		<div class="popup_l hide" id="page_adder">
-			<form method="post" action="add_page">
+			<form method="post" action="add_page" name="pageAdder">
 				<input type="text" name="new_page" id="">
 				<input type="submit" value="Add Page">
 			</form>
