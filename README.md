@@ -6,20 +6,15 @@
 
 # MicroSite
 
-Small tool built with Python and Flask for building static websites with
-Markdown.
+MicroSite is a Content Management Solution (CMS) wrapped around the [Flask](https://flask.palletsprojects.com/en/2.0.x/) microframework. I decided to build it after having several website-building/-maintaining jobs, and WordPress and the other solutions were either too difficult to customize appropriately, or what I was asked to provied required writing my own plugin (thank you, but no), or just seemed to slow -- rather bloated.
 
-## How does it work?
+This project is still in its very early stages, and can just barely host its markdown files. We are working on things though, and will just go one step at a time. The python is being meticulously inspected for optimizations. Python is slow when written without a great amount of care.
 
-This website uses the microframework [Flask](https://flask.palletsprojects.com/en/2.0.x/).
+The markdown syntax will be "expanded" from the standard, in order to facilitate the greater needs of a webpage. More information on the syntax will be forthcoming.
 
-## How to use this?
+## Plugins
 
-Work on this later...
-
-### How do we get the articles as HTML?
-
-The articles are interpreted markdown files.
+There are no plugins yet, but everythign is being built with plugins in mind.
 
 ## Contributing
 
