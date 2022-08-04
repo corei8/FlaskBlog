@@ -77,16 +77,3 @@ def edit_page():
 		# return abort(404)
 	# else:
 		# return render_template(section_template, title='', copy=date, section=True)
-
-# # TODO keep the error pages in another page
-# @app.errorhandler(404)
-# @flask_optimize.optimize()
-# def page_not_found(e):
-	# info = render_article(article='404', directory='errors')
-	# return render_template(info[0], title=info[-1], copy=date), 404
-
-# @app.errorhandler(500)
-# @flask_optimize.optimize()
-# def page_not_found(e):
-	# info = render_article(article='500', directory='errors')
-	# return render_template(info[0], title=info[-1], copy=date), 500
