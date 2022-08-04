@@ -19,28 +19,9 @@
 				<main>
 					<div class="main_container">
 						{% if page_view == 'menu' %}
-						<div class="section_containter">
-							<h3>Pages</h3>
-							<p>All of the pages for your website. Click on one to edit it.</p>
-							<div class="section_content">
-								<ul>
-									{% for page in pages_list %}
-									<li>
-										<form method="post">
-										<input type="hidden" name="page_to_edit" value="{{ page }}">
-										<input type="submit" value="{{ page }}">
-									</form>
-									</li>
-									{% endfor %}
-								</ul>
-								<form method="post"><input type="submit" value="Add Page"></form>
-							</div>
-						</div>
+							{% include 'builder/pages.html' %}
 						{% elif page_view == 'edit_page' %}
-						<form method="post">
-							<textarea name="" id="" cols="30" rows="10">{{ content }}</textarea>
-						</form>
-					<a href="{{ url_for('builder_home') }}">Back</a>
+							{% include 'builder/page_editor.html' %}
 						{% endif %}
 					</div>
 				</main>

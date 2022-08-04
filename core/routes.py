@@ -51,6 +51,17 @@ def builder_home():
 			page_view = 'menu',
 			)
 
+@app.route("/add_page", strict_slashes=True, methods=['POST', 'GET'])
+def add_page():
+	if request.method == 'POST':
+		filename = request.form['new_page']
+		open(PAGES+filename+'.md', 'a').close() # create the file
+		return render_template(
+				'builder_home.html',
+				pages_list = get_all_pages(),
+				page_view = 'menu'
+				)
+
 # @app.route("/<section>/<string:article>", methods=['GET'], strict_slashes=False)
 # @flask_optimize.optimize()
 # def articles(section, article):
