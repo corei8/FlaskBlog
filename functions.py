@@ -10,13 +10,6 @@ from flask import abort, render_template
 from icecream import ic
 from markdown.extensions.toc import TocExtension
 
-<<<<<<< HEAD
-# TODO use a separate file for the markdown rendering engine.
-=======
-# here is a comment
-
-# TODO put in separate file fir global variables
->>>>>>> 7aca27305ab674d4d4abe91e398aec69bf129764
 HTML_PATH = './app/templates/articles/'
 MKDN_PATH = './app/articles/'
 MKDN_SECTION_PATH = './app/articles/sections/'
@@ -86,10 +79,7 @@ def build_menu() -> None:
 	return None
 
 def log_user_activity(file: str) -> None:
-<<<<<<< HEAD
 	"""Write user events to a file for analytics"""
-=======
->>>>>>> 7aca27305ab674d4d4abe91e398aec69bf129764
 	return None
 
 def grab_title(file: str, directory: str) -> str:

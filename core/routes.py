@@ -7,6 +7,7 @@ from icecream import ic, install
 
 from core.microsite_utils.builder import get_all_pages, check_valid_name, delete_page, add_markdown_page
 from core.microsite_utils.globals import *
+from core.microsite_utils.markdown_to_html import markdown_checker
 
 from core import app
 # from functions import (markdown_checker, render_article, valid_sections,
@@ -19,13 +20,12 @@ flask_optimize = FlaskOptimize()
 
 date = datetime.now().strftime('%Y')
 
-# @app.route("/")
-# @app.route("/home", strict_slashes=False)
-# @flask_optimize.optimize()
-# def landing_page():
-	# return markdown_checker('home', '')
-
 @app.route("/")
+@app.route("/home", strict_slashes=False)
+@flask_optimize.optimize()
+def landing_page():
+	return markdown_checker('home', '')
+
 @app.route("/login", strict_slashes=False)
 @flask_optimize.optimize()
 def admin_login():
@@ -48,6 +48,7 @@ def builder():
 			)
 
 @app.route("/edit_page", strict_slashes=True, methods=['POST', 'GET'])
+@flask_optimize.optimize()
 def edit_page():
 	if request.method == 'POST':
 		if 'edited_content' in request.form:
