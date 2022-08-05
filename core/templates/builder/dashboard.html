@@ -12,10 +12,13 @@
 					<input type="hidden" name="page_to_edit" value="{{ page }}">
 					<input type="submit" value="{{ page }}">
 				</form>
+				{% if page == 'home' %}
+				{% else %}
 				<form method="post" name="pageDelete">
 					<input type="hidden" name="page_to_delete" value="{{ page }}">
 					<input type="submit" value="Delete">
 				</form>
+				{% endif %}
 			</li>
 			{% endfor %}
 		</ul>
