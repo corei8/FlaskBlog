@@ -1,11 +1,12 @@
 from datetime import *
 from time import perf_counter
 
-from flask import abort, render_template, request
+from flask import abort, render_template, request, redirect, url_for
 from flask_optimize import FlaskOptimize
 from icecream import ic, install
 
-from core.microsite_utils.builder import get_all_pages
+from core.microsite_utils.builder import get_all_pages, check_valid_name, delete_page, add_markdown_page
+from core.microsite_utils.globals import *
 
 from core import app
 # from functions import (markdown_checker, render_article, valid_sections,
@@ -25,41 +26,39 @@ date = datetime.now().strftime('%Y')
 	# return markdown_checker('home', '')
 
 @app.route("/")
-@app.route("/builder", strict_slashes=False)
+@app.route("/login", strict_slashes=False)
 @flask_optimize.optimize()
-def builder():
+def admin_login():
 	return render_template('builder.html')
 
-PAGES = 'pages/'
-
-@app.route("/builder_home", strict_slashes=False, methods=['POST', 'GET'])
+@app.route("/builder", strict_slashes=False, methods=['POST', 'GET'])
 @flask_optimize.optimize()
-def builder_home():
+def builder():
 	if request.method == 'POST':
-		# TODO add flag for return type
+		if 'add_page_form' in request.form:
+			filename = request.form['new_page']
+			# TODO add filename validation to page creation
+			valid_filename = check_valid_name(filename)
+			add_markdown_page(valid_filename)
+		elif 'page_to_delete' in request.form:
+			delete_page(request.form['page_to_delete'])
+		else:
+			abort(500)
+	return render_template(
+			'builder/dashboard.html',
+			pages_list = get_all_pages(),
+			)
+
+@app.route("/edit_page", strict_slashes=True, methods=['POST', 'GET'])
+def edit_page():
+	if request.method == 'POST':
 		file = request.form['page_to_edit']
 		with open(PAGES+file, 'r') as f:
 			file_content = f.read()
 		return render_template(
-				'builder_home.html',
+				'builder.html',
 				page_view = 'edit_page',
 				content=file_content
-				)
-	return render_template(
-			'builder_home.html',
-			pages_list = get_all_pages(),
-			page_view = 'menu',
-			)
-
-@app.route("/add_page", strict_slashes=True, methods=['POST', 'GET'])
-def add_page():
-	if request.method == 'POST':
-		filename = request.form['new_page']
-		open(PAGES+filename+'.md', 'a').close() # create the file
-		return render_template(
-				'builder_home.html',
-				pages_list = get_all_pages(),
-				page_view = 'menu'
 				)
 
 # @app.route("/<section>/<string:article>", methods=['GET'], strict_slashes=False)
@@ -78,16 +77,3 @@ def add_page():
 		# return abort(404)
 	# else:
 		# return render_template(section_template, title='', copy=date, section=True)
-
-# # TODO keep the error pages in another page
-# @app.errorhandler(404)
-# @flask_optimize.optimize()
-# def page_not_found(e):
-	# info = render_article(article='404', directory='errors')
-	# return render_template(info[0], title=info[-1], copy=date), 404
-
-# @app.errorhandler(500)
-# @flask_optimize.optimize()
-# def page_not_found(e):
-	# info = render_article(article='500', directory='errors')
-	# return render_template(info[0], title=info[-1], copy=date), 500
