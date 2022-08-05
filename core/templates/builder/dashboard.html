@@ -1,3 +1,6 @@
+{% extends 'base_builder.html' %}
+
+{% block content %}
 <div class="section_containter">
 	<h3>Pages</h3>
 	<p>All of the pages for your website. Click on one to edit it.</p>
@@ -9,14 +12,18 @@
 					<input type="hidden" name="page_to_edit" value="{{ page }}">
 					<input type="submit" value="{{ page }}">
 				</form>
+				<form method="post" name="pageDelete">
+					<input type="hidden" name="page_to_delete" value="{{ page }}">
+					<input type="submit" value="Delete">
+				</form>
 			</li>
 			{% endfor %}
 		</ul>
 		<button onclick="makeVisible('page_adder')">Add Page</button>
 		<div class="popup_l hide" id="page_adder">
-			<form method="post" id="add_page_form" name="pageAdder">
+			<form method="post" name="pageAdder">
 				<input type="text" name="new_page" id="">
-				<input type="submit" value="Add Page">
+				<input type="submit" name="add_page_form" value="Add Page">
 			</form>
 		</div>
 	</div>
@@ -27,3 +34,4 @@ function makeVisible(elementID) {
 	popUp.classList.toggle("show");
 }
 </script>
+{% endblock %}
