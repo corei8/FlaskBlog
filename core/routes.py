@@ -19,7 +19,7 @@ flask_optimize = FlaskOptimize()
 
 date = datetime.now().strftime('%Y')
 
-# # @app.route("/")
+# @app.route("/")
 # @app.route("/home", strict_slashes=False)
 # @flask_optimize.optimize()
 # def landing_page():
@@ -37,9 +37,7 @@ def builder():
 	if request.method == 'POST':
 		if 'add_page_form' in request.form:
 			filename = request.form['new_page']
-			# TODO add filename validation to page creation
-			valid_filename = check_valid_name(filename)
-			add_markdown_page(valid_filename)
+			add_markdown_page(filename)
 		elif 'page_to_delete' in request.form:
 			delete_page(request.form['page_to_delete'])
 		else:
@@ -52,14 +50,34 @@ def builder():
 @app.route("/edit_page", strict_slashes=True, methods=['POST', 'GET'])
 def edit_page():
 	if request.method == 'POST':
-		file = request.form['page_to_edit']
-		with open(PAGES+file, 'r') as f:
-			file_content = f.read()
-		return render_template(
-				'builder.html',
-				page_view = 'edit_page',
-				content=file_content
+		if 'edited_content' in request.form:
+			file = request.form['edited_file']
+			content = request.form['edited_content']
+			with open(PAGES+file, 'w') as f:
+				f.truncate(0)
+				f.write(request.form['edited_content'])
+			# write to the file and continue edit session?
+			with open(PAGES+file, 'r') as f:
+				file_content = f.read()
+			return render_template(
+				'builder/page_editor.html',
+				content=file_content,
+				filename = file,
 				)
+		else:
+			file = request.form['page_to_edit']
+			# prevent adding '.md' if no change to file:
+			if file.split('.')[-1] == 'md':
+				pass
+			else:
+				file += '.md'
+			with open(PAGES+file, 'r') as f:
+				file_content = f.read()
+			return render_template(
+					'builder/page_editor.html',
+					content=file_content,
+					filename = file,
+					)
 
 # @app.route("/<section>/<string:article>", methods=['GET'], strict_slashes=False)
 # @flask_optimize.optimize()

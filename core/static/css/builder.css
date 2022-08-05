@@ -135,3 +135,11 @@ form.editor {
   visibility: visible;
 }
 
+textarea {
+    border: none;
+    outline: none;
+    overflow: none;
+}
+textarea:focus {
+    outline:none;
+}
