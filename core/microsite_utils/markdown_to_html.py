@@ -74,7 +74,10 @@ def commit_to_database(file: str, directory: str) -> None:
 	data = page_data()
 	md_location = PAGES+directory+'/'+add_md(file)
 	f = os.stat(md_location)
-	title = grab_title(file=file, directory=directory).split('#')[-1].lstrip()
+	try:
+		title = grab_title(file=file, directory=directory).split('#')[-1].lstrip()
+	except AttributeError:
+		title = ''
 	data.update({directory:{file:{'mod':f.st_mtime, 'title':title}}})
 	update_database(data)
 	return None
@@ -91,7 +94,7 @@ def build_page(file: str, directory: str) -> None:
 		input=md_location,
 		output=html_location,
 		extensions=[TocExtension(
-			# TODO all this will be handled by the user preferences
+			# TODO: all this will be handled by the user preferences
 			permalink=False,
 			title='Table of Contents',
 			toc_depth="2"
@@ -122,7 +125,7 @@ def check_modified(file: str, directory: str) -> bool:
 	path_html = HTML+directory+'/'+html
 	if not os.path.isfile(path_html):
 		if not os.path.isfile(path_md):
-			# TODO: adjust this so that page is fetched form here.
+			# TODO: adjust this so that page is fetched from here.
 			return 404
 		else:
 			build_page(file=file, directory=directory)
@@ -153,7 +156,6 @@ def render_page(article: str, directory: str) -> list:
 		pass
 	else:
 		build_page(file=article, directory=directory)
-		# split_article(article=article, directory=directory)
 	title = get_title(article=article, directory=directory)
 	if len(directory) != 0:
 		page_path = USER+directory+'/'
@@ -173,4 +175,5 @@ def markdown_checker(file: str, directory: str):
 		return abort(404)
 	else:
 		# log_user_activity(file=file)
+		# TODO: add the version number to the footer by default
 		return render_template(info[0], title=info[-1].strip(), copy=date)

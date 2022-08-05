@@ -8,6 +8,7 @@ def check_valid_name(name: str) -> str:
 	Ensures that the names for the markdown files will be easy to 
 	work with: no numbers, spaces, special characters, etc.
 	"""
+	# TODO: name valdation for pages
 	if len(name) == 0:
 		valid_name = 'untitled'
 	else: valid_name = name.lower()

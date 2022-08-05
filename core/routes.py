@@ -24,7 +24,10 @@ date = datetime.now().strftime('%Y')
 @app.route("/home", strict_slashes=False)
 @flask_optimize.optimize()
 def landing_page():
-	return markdown_checker('home', '')
+	try:
+		return markdown_checker('home', '')
+	except FileNotFoundError:
+		return render_template('microsite_default_welcome.html') 
 
 @app.route("/login", strict_slashes=False)
 @flask_optimize.optimize()
