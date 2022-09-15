@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+	<head>
+		<title value="{{ title }}">{{ title }}</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="author" content="Gregory Robert Barnes">
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/usr/{{ theme }}/nav.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/usr/{{ theme }}/main.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/usr/{{ theme }}/aside_left.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/usr/{{ theme }}/aside_right.css') }}">
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/usr/{{ theme }}/footer.css') }}">
+	</head>
+	<body>
+		<nav>
+			{% if title == "Home": %}
+			{% include 'usr/header/default_landing.html' %}
+			{% else %}
+			{% include 'usr/header/default.html' %}
+			{% endif %}
+			{% if title != "Home": %}
+			{% endif %}
+		</nav>
+	<aside class="left"></aside>
+		<main>
+			{% block content %}{% endblock %}
+		</main>
+	<aside class="right"></aside>
+		<footer>
+			{% include 'usr/footer/default.html' %}
+		</footer>
+	</body>
+</html>

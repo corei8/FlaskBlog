@@ -1,0 +1,4 @@
+include microsite/schema.sql
+graft microsite/static
+graft microsite/templates
+global-exclude *.pyc
