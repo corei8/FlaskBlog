@@ -4,19 +4,13 @@ import re
 from datetime import datetime
 from pathlib import Path
 from string import ascii_letters
-
+# this is a comment
+# and another comment that is an added line
 import markdown
 from flask import abort, render_template
 from icecream import ic
 from markdown.extensions.toc import TocExtension
 
-<<<<<<< HEAD
-# TODO use a separate file for the markdown rendering engine.
-=======
-# here is a comment
-
-# TODO put in separate file fir global variables
->>>>>>> 7aca27305ab674d4d4abe91e398aec69bf129764
 HTML_PATH = './app/templates/articles/'
 MKDN_PATH = './app/articles/'
 MKDN_SECTION_PATH = './app/articles/sections/'
@@ -86,10 +80,7 @@ def build_menu() -> None:
 	return None
 
 def log_user_activity(file: str) -> None:
-<<<<<<< HEAD
 	"""Write user events to a file for analytics"""
-=======
->>>>>>> 7aca27305ab674d4d4abe91e398aec69bf129764
 	return None
 
 def grab_title(file: str, directory: str) -> str:
@@ -125,7 +116,7 @@ def build_article(file: str, directory: str) -> None:
 		extensions=[TocExtension(
 			permalink=False,
 			title='Table of Contents',
-			# TODO adjust the formatting of the TOC
+			# TODO: adjust the formatting of the TOC
 			toc_depth="2"
 		), 'footnotes']
 	)
@@ -154,7 +145,7 @@ def check_modified(file: str, directory: str) -> bool:
 	path_html = HTML_PATH+directory+'/'+html
 	if not os.path.isfile(path_html):
 		if not os.path.isfile(path_md):
-			# TODO adjust this so that page is fetched form here.
+			# TODO: adjust this so that page is fetched form here.
 			return 404
 		else:
 			build_article(file=file, directory=directory)
